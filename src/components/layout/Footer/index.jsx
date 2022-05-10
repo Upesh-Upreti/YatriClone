@@ -26,11 +26,11 @@ const Footer = () => {
                 <Link href="/"><a>Track Reservation</a></Link>
             </div>
             <div className="social-media-icons">
-            <a href="https://www.youtube.com" target="_blank" referer="noreferer"><FontAwesomeIcon icon={faYoutube} /></a>
-            <a href="https://www.youtube.com" target="_blank" referer="noreferer"><FontAwesomeIcon icon={faInstagram}/></a>
-            <a href="https://www.youtube.com" target="_blank" referer="noreferer"><FontAwesomeIcon icon={faTwitter} /></a>
-            <a href="https://www.youtube.com" target="_blank" referer="noreferer"><FontAwesomeIcon icon={faLinkedinIn} /> </a>
-            <a href="https://www.youtube.com" target="_blank" referer="noreferer"><FontAwesomeIcon icon={faFacebook} /></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram}/></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /> </a>
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
              </div>
         </div>      
     </StyledFooter>

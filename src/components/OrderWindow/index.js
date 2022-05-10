@@ -24,8 +24,8 @@ const OrderWindow = ({ bikeVariants,selectedVariant,setSelectedVariant }) => {
             <FormField>
             <label>Customize Color</label>
             {
-                bikeVariants.map((variant) =>{
-                    return <ColorSelector bikeColor = {variant.color} active = {selectedVariant.variant === variant.variant} onClick = {() => setSelectedVariant(variant)} />
+                bikeVariants.map((variant,index) =>{
+                    return <ColorSelector key={index} bikeColor = {variant.color} active = {selectedVariant.variant === variant.variant} onClick = {() => setSelectedVariant(variant)} />
                 }) 
             }
             </FormField>

@@ -7,7 +7,7 @@ import {  faEllipsisV,faTimes } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"
 import styled from 'styled-components';
 
-const index = () => {
+const Index = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <StyledHeader>
@@ -91,4 +91,4 @@ const StyledMenu = styled.div`
   
 `
 
-export default index
+export default Index
